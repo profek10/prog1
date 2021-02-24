@@ -7,7 +7,7 @@ void obrni(double polje[]) {
 		novoPolje[number-i-1] = polje[i];
 	}
   for (int i = 0; i < number; i++) {
-		polje[i] = novoPolje[i];
+	polje[i] = novoPolje[i];
   }
 }
 
